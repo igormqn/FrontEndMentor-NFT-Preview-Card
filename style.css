@@ -1,50 +1,195 @@
 body{
-background-color: hsl(212, 45%, 89%);
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100%;
 }
-.qr-code{
-    background-color: #fff;
-    height: 600px;
-    width: 400px;
-    margin-left: 720px;
-    margin-top: 100px;
-    border-radius: 20px;
-}
-img{
-    height: 350px;
+.middle-card{
+    height: 550px;
     width: 350px;
+    background-color: hsl(216, 50%, 16%);
     border-radius: 20px;
-    margin-left: 25px;
-    margin-top: 25px;
-
+    margin-left: 575px;
+    margin-top: 70px;
+    position: absolute;
+}
+.main-card{
+    height: 550px;
+    width: 300px;
+    background-color: hsl(215, 32%, 27%);
+    margin-left: 600px;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: absolute;
+}
+.main-image{
+height: 250px;
+width: 250px;
+margin-left: 25px;
+margin-top: 25px;
+border-radius: 10px;
 }
 h2{
+    margin-left:20px;
+    color: hsl(0, 0%, 100%);
     font-family: Outfit;
-    text-align: center;
-    color: hsl(218, 44%, 22%);
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
+}
+.p1{
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.p2{
+    color: hsl(178, 100%, 50%);
+    font-family: Outfit;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.p3{
+    font-family: Outfit;
+    font-weight: 600;
+    margin-left: 80px;
+    color: hsl(215, 51%, 70%);
+}
+.align{
+    display: flex;
+}
+.ethereum{
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+}
+.clock{
+    height: 18px;
+    position: absolute;
+    margin-left: 178px;
+    margin-top: 17px;
+}
+.line-break{
+    width: 250px;
+    border-top: 0.1em solid hsl(215, 51%, 70%);
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+.creation{
+    
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
     
 }
-p{
-    font-size: 15px;
+.avatar{
+    height: 50px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100px;
+}
+.p4{
+    color: hsl(215, 51%, 70%);
     font-family: Outfit;
-    color: hsl(220, 15%, 55%);
-    text-align: center;
-    font-weight: 400;
+    margin-left: 10px;
 }
 
-@media screen and (max-width:375px) {
-.qr-code{
-    margin-left: 30px;
-    height: 500px;
-    width: 300px;
- }
- img{
+span{
+    color: hsl(0, 0%, 100%);
+}
+@media screen and (max-width: 375px){
+    .middle-card{
+        height: 550px;
+        width: 350px;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 20px;
+        margin-left: 9px;
+        margin-top: 130px;
+        position: absolute;
+    }
+    .main-card{
+        height: 550px;
+        width: 300px;
+        background-color: hsl(215, 32%, 27%);
+        margin-left: 38px;
+        margin-top: 100px;
+        border-radius: 10px;
+        position: absolute;
+    }
+    .main-image{
     height: 250px;
     width: 250px;
-    border-radius: 20px;
     margin-left: 25px;
     margin-top: 25px;
-    opacity: 1;
-
- }
+    border-radius: 10px;
+    }
+    h2{
+        margin-left:20px;
+        color: hsl(0, 0%, 100%);
+        font-family: Outfit;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .p1{
+        color: hsl(215, 51%, 70%);
+        font-family: Outfit;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .p2{
+        color: hsl(178, 100%, 50%);
+        font-family: Outfit;
+        font-weight: 600;
+        margin-left: 30px;
+    }
+    
+    .p3{
+        font-family: Outfit;
+        font-weight: 600;
+        margin-left: 80px;
+        color: hsl(215, 51%, 70%);
+    }
+    .align{
+        display: flex;
+    }
+    .ethereum{
+        height: 20px;
+        margin-top: 15px;
+        margin-left: 15px;
+        position: absolute;
+    }
+    .clock{
+        height: 18px;
+        position: absolute;
+        margin-left: 165px;
+        margin-top: 18px;
+    }
+    .line-break{
+        width: 250px;
+        border-top: 0.1em solid hsl(215, 51%, 70%);
+        border-left: 0px;
+        border-bottom: 0px;
+        border-right: 0px;
+    }
+    .creation{
+        
+        display: flex;
+        margin-left: 30px;
+        margin-top: 30px;
+        
+    }
+    .avatar{
+        height: 50px;
+        border: 1px solid hsl(0, 0%, 100%);
+        border-radius: 100px;
+    }
+    .p4{
+        color: hsl(215, 51%, 70%);
+        font-family: Outfit;
+        margin-left: 10px;
+    }
+    
+    span{
+        color: hsl(0, 0%, 100%);
+    }
 }
